@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Personal - Sobre Mi</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+ <h1>Zaira Patricia Rendon Serrano <span>Ingeniería en Computación</span></h1>
+
+<!-- Menu de navegación -->
+<div class="fondo-nav">
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="#">Clientes</a>
+        <a href="#">Sobre mi</a>
+        <a href="contacto.html">Contacto</a>
+     </nav>
+</div>
+
+<main class="contenedor sombra">
+    <h2 class="head-servicios">Mi Currículum</h2>
+    <div class="informacion-contacto">
+        <section class="informacion">
+            <h3 class="head-3">Formación Académica</h3>
+            <p class="p-info">
+                Estudiante de Ingeniería en Computación en la Universidad de Guadalajara, con un enfoque en desarrollo web, bases de datos y programación.
+            </p>
+        </section>
+
+        <section class="informacion">
+            <h3 class="head-3">Experiencia</h3>
+            <p class="p-info">
+                Desarrollo de proyectos con HTML, CSS, JavaScript, así como la implementación de algoritmos y estructuras de datos en varios lenguajes de programación.
+            </p>
+        </section>
+
+        <section class="informacion">
+            <h3 class="head-3">Habilidades</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Desarrollo Backend con Node.js</li>
+                <li>Bases de datos (MySQL, MongoDB)</li>
+            </ul>
+        </section>
+
+        <section class="informacion">
+            <h3 class="head-3">Redes Sociales</h3>
+            <p class="p-info">
+                <a href="https://www.linkedin.com/in/zairarendon" target="_blank">LinkedIn</a> | <a href="https://github.com/zairarendon" target="_blank">GitHub</a>
+            </p>
+        </section>
+    </div>
+
+    <div class="formulario">
+        <h2 class="head-servicios">Contactar</h2>
+        <form action="">
+            <fieldset>
+                <legend>para contactarte debes llenar todos los campos</legend>
+                <div class="campos">
+                    <div class="campo">
+                        <label for="nombre">Nombre:</label>
+                        <input placeholder="Nombre" type="text" id="nombre" class="input-text">
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono:</label>
+                        <input placeholder="Teléfono" type="tel" id="telefono" class="input-text">
+                    </div>
+                    <div class="campo">
+                        <label for="correo">Correo electrónico:</label>
+                        <input placeholder="Correo electrónico" type="email" id="correo" class="input-text">
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" class="text-area"></textarea>
+                    </div>
+                </div>
+                <div class="alinear-boton">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</main>
+
+<div class="footer sombra">
+    <footer class="margen-footer">
+        Todos los derechos reservados - Zaira Patricia Rendon Serrano
+    </footer>
+</div>
+
+</body>
+</html>

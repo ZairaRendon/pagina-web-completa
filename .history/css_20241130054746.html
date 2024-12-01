@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Personal - CSS</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/js.css">
+
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"/>
+</head>
+<body>
+    <h1>Zaira Patricia Rendon Serrano <span>Ingeniería en Computación</span></h1>
+
+    <!-- Menu de navegación -->
+    <div class="fondo-nav">
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="clientes.html">Clientes</a>
+            <a href="sobreMi.html">Sobre mi</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <nav id="uniqueNav">
+        <div class="mobile">
+            <div class="header">
+                <div class="logo">Logo</div>
+                <div class="more">
+                    <button id="bMore">
+                        <span class="material-icons">menu </span> 
+                    </button>
+                </div>
+            </div>
+            <div id="links" class="links">
+                <a href ="#">Services</a>
+                <a href ="#">About</a>
+                <a href ="#">Contact</a>
+                <a href ="#">Search</a>
+                <a href ="#">Sign up</a>
+                <a href ="#">Login</a>
+            </div> 
+        </div>
+
+        <div class="desktop">
+            <div class="logo">logo</div>
+
+            <div class="primary">
+                <a href ="#">Services</a>
+                <a href ="#">About</a>
+                <a href ="#">Contact</a>
+            </div>
+
+            <div class="secondary full">
+                <a href ="#">Search</a>
+                <a href ="#">Sign up</a>
+                <a href ="#">Login</a>
+            </div>
+
+             <!-- redimensionar si no es 1920 px (HD). Se contraen ciertas opciones -->
+            <div class="secondary mini"> 
+                <a href="#" class="more">More</a>
+                <div class="submenu">
+                <a href ="#">Search</a>
+                <a href ="#">Sign up</a>
+                <a href ="#">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>

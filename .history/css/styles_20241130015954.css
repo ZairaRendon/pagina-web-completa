@@ -1,0 +1,132 @@
+/* Normalización de estilos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Encabezado */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #222;
+    font-size: 2rem;
+}
+
+h1 span {
+    display: block;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Menú de navegación */
+.fondo-nav {
+    background-color: #0077b6;
+    padding: 10px 0;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav.menu a:hover {
+    color: #00b4d8;
+}
+
+/* Contenedor principal */
+main.contenedor {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main.contenedor h2 {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.informacion-contacto .informacion {
+    margin-bottom: 20px;
+}
+
+.informacion-contacto h3 {
+    color: #0077b6;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.p-info {
+    margin-bottom: 10px;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #0077b6;
+    font-size: 1.2rem;
+}
+
+/* Enlaces en secciones */
+.informacion a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.informacion a:hover {
+    color: #00b4d8;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.sombra {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.margen-footer {
+    max-width: 900px;
+    margin: 0 auto;
+}

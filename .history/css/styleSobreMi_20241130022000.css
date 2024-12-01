@@ -1,0 +1,145 @@
+
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Contenedor principal estilo hoja */
+main.contenedor {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e0e0e0;
+}
+
+/* Encabezado principal */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #0077b6;
+}
+
+h1 span {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #555;
+}
+
+/* Menú de navegación */
+.fondo-nav {
+    background-color: var(--verdefuerte);
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--verdefuerte);
+    margin: 0 15%;
+  }
+
+  .menu a {
+    color: var(--gris);
+    font-size: 1.5rem;
+    width: 15rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5rem 0;
+  }
+
+/* Títulos de secciones */
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0077b6;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e0e0e0;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #0077b6;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    border-left: 4px solid #0077b6;
+    padding-left: 10px;
+}
+
+/* Párrafos y listas */
+.p-info {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #0077b6;
+    font-size: 1.2rem;
+}
+
+/* Links */
+a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00b4d8;
+}
+
+/* Pie de página */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #0077b6;
+    border-radius: 10px;
+}
+
+/* Ajustes responsivos */
+@media screen and (max-width: 768px) {
+    main.contenedor {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    nav.menu a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+}

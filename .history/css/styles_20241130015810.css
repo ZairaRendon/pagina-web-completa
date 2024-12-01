@@ -1,0 +1,115 @@
+/* Normalize CSS to ensure consistent styling across browsers */
+@import url('css/normalize.css');
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+h1 span {
+    color: #16a085;
+    font-size: 1.2rem;
+}
+
+/* Estilo para el menú de navegación */
+.fondo-nav {
+    background-color: #34495e;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ecf0f1;
+    padding: 10px 20px;
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #16a085;
+    color: white;
+}
+
+/* Estilo para el contenedor principal */
+.main-container {
+    padding: 30px;
+    background-color: #fff;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de información */
+.informacion {
+    margin-bottom: 20px;
+}
+
+.informacion h3 {
+    font-size: 1.8rem;
+    color: #16a085;
+}
+
+.informacion p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.informacion ul {
+    padding-left: 20px;
+}
+
+.informacion ul li {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Estilo para los enlaces de redes sociales */
+.informacion a {
+    text-decoration: none;
+    color: #16a085;
+}
+
+.informacion a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+/* Estilos para la sombra y contenedores */
+.sombra {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.margen-footer {
+    margin: 0;
+}
+

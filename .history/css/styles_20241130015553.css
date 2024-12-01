@@ -1,0 +1,191 @@
+/* Normaliza el estilo base */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabecera */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+h1 span {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+/* Barra de navegación */
+.fondo-nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: center;
+}
+
+nav.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav.menu a:hover {
+    background-color: #555;
+}
+
+/* Estilo para el contenedor principal */
+.contenedor {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Títulos secundarios */
+.head-servicios {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Secciones dentro de "Sobre mí" */
+.informacion {
+    margin-bottom: 20px;
+}
+
+.informacion h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.informacion p,
+.informacion ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.informacion ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.informacion ul li {
+    margin-bottom: 8px;
+}
+
+.informacion a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.informacion a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para la sección de "Logros" */
+.informacion ul {
+    list-style-type: square;
+}
+
+.informacion ul li {
+    margin-bottom: 10px;
+}
+
+.informacion p {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.margen-footer {
+    margin-top: 20px;
+}
+
+/* Estilos adicionales de personalización */
+.sombra {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.margen-footer {
+    margin-top: 20px;
+}
+
+.fondo-nav nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo-nav nav a {
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.fondo-nav nav a:hover {
+    background-color: #444;
+}
+
+.informacion {
+    margin-bottom: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.informacion h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+p-info {
+    font-size: 1.1rem;
+    color: #34495e;
+}
+
+/* Medios */
+@media (max-width: 768px) {
+    .contenedor {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h1 span {
+        font-size: 1.2rem;
+    }
+    .head-servicios {
+        font-size: 1.5rem;
+    }
+    .informacion h3 {
+        font-size: 1.3rem;
+    }
+    .informacion p {
+        font-size: 1rem;
+    }
+}

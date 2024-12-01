@@ -1,0 +1,36 @@
+:root {
+    --verdefuerte: #987D9A;
+    --verde: #176B87;
+    --verdeclaro: #427D9D;
+    --gris: #164863;
+}
+  html {
+    font-size: 62.5%;
+  }
+
+  
+.fondo-nav {
+    background-color: var(--verdefuerte);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--verdefuerte);
+    margin: 0 15%;
+}
+
+.menu a {
+    color: var(--gris);
+    font-size: 1.5rem;
+    width: 15rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5rem 0;
+}
+
+.menu a:hover {
+    background-color: var(--gris);
+    color: var(--verdefuerte);
+}

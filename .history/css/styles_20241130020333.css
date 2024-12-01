@@ -1,0 +1,62 @@
+/* Contenedor principal estilo hoja */
+main.contenedor {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e0e0e0;
+}
+
+/* Encabezado con foto */
+.encabezado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Foto de perfil */
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #0077b6;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #0077b6;
+}
+
+h1 span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #555;
+}
+
+/* Resto del CSS se mantiene igual */
+nav.menu {
+  display: inline-block;
+  background-color: #0077b6;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+/* Pie de página */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #0077b6;
+  border-radius: 10px;
+}
